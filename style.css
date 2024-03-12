@@ -1,0 +1,24 @@
+#game div {
+  border: 1px solid black;
+  width: 15%;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+}
+
+/* Container to hold the buttons */
+.buttons-container {
+  display: flex;       /* Use Flexbox */
+  justify-content: center; /* Center items horizontally in the container */
+  align-items: center; /* Center items vertically in the container */
+  height: 10vh;       /* Make the container fill the entire height of the viewport */
+  gap: 20px;           /* Space between the buttons */
+}
+
+/* Optional: Style for the buttons */
+.button {
+  padding: 10px 20px; /* Add some padding around the button text */
+  cursor: pointer;    /* Change mouse cursor to pointer when over the button */
+  border: none;       /* Remove border */
+  border-radius: 5px; /* Optional: round the corners of the button */
+}
